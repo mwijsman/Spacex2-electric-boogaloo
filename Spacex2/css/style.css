@@ -1,0 +1,40 @@
+html{
+	background-color: #000202;
+	font-family: Sans serif;
+}
+ .chartContainer{
+ 	height: 100%;
+ }
+
+ .fluidchartitem{
+ 	height: 100%;
+ }
+#header{
+	height : 80px;
+	display: flex;
+}
+	#header img {
+		max-height: 100%;
+	}
+
+h1{
+	font-size: 30px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Sans serif;
+}
+
+#countdown{
+	font-size: 40px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Sans serif;
+}
+
+#canvas{
+  margin-left: 7%
+}
+
+#grid-container{
+  		min-width: 300px; 
+  	}

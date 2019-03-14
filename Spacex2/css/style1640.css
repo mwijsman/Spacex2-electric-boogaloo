@@ -1,0 +1,17 @@
+  @media screen and (min-width: 1640px){
+  	#grid-container{
+  		max-width: 1640px; 
+  	}
+	
+	#canvas{
+	  margin-left: 37%
+	}
+		h1{
+	font-size: 60px;
+	}
+
+	#countdown{
+		font-size: 60px;
+	}
+
+  }

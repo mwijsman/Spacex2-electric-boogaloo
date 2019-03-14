@@ -1,0 +1,17 @@
+ @media screen and (min-width: 640px){
+ 	#header{
+		padding-left: 10px;
+	}
+
+	#canvas{
+	  margin-left: 17%
+	}
+	
+	h1{
+	font-size: 45px;
+	}
+
+	#countdown{
+		font-size: 45px;
+	}
+ }
