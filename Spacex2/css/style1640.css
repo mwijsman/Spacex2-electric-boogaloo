@@ -3,15 +3,28 @@
   		max-width: 1640px; 
   	}
 	
-	#canvas{
-	  margin-left: 37%
-	}
+#klok{
+	font-size: 45px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#datum{
+	font-size: 45px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#tijd{
+	font-size: 45px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
 		h1{
 	font-size: 60px;
-	}
-
-	#countdown{
-		font-size: 60px;
-	}
+		}
 
   }

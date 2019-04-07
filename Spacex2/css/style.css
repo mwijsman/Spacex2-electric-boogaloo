@@ -1,40 +1,84 @@
 html{
-	background-color: #000202;
-	font-family: Sans serif;
+	font-family: Arial;
 }
- .chartContainer{
- 	height: 100%;
- }
 
- .fluidchartitem{
- 	height: 100%;
- }
-#header{
+header{
 	height : 80px;
 	display: flex;
 }
-	#header img {
+	header img {
 		max-height: 100%;
+		width: 60%;
 	}
 
 h1{
-	font-size: 30px;
+	font-size: 20px;
 	color: #c7c7c8;
 	text-align: center;
-	font-family: Sans serif;
+	font-family: Arial;
 }
 
-#countdown{
-	font-size: 40px;
+#klok{
+	font-size: 20px;
 	color: #c7c7c8;
 	text-align: center;
-	font-family: Sans serif;
+	font-family: Arial;
 }
 
-#canvas{
-  margin-left: 7%
+#datum{
+	font-size: 20px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#tijd{
+	font-size: 20px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#item2{
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 #grid-container{
   		min-width: 300px; 
   	}
+#animatieveld{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+	position: abosulte;
+}
+
+.maan{
+		max-height: 200px;
+		position: absolute;
+		opacity: 0;
+		z-index: 2;
+	}
+.wolken{
+		max-height: 200px;
+		position: absolute;
+		margin-left: -100px;
+		opacity: 0;
+		z-index: 6;
+	}
+	.zon{
+		max-width: 200px;
+		max-height: 200px;
+		position: relative;
+		margin-left: -100px;
+		opacity: 0;
+		z-index: 2;
+	}
+
+body{
+	background-color: #000202;	
+}
+
+

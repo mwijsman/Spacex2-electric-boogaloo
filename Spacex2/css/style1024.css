@@ -1,14 +1,28 @@
   @media screen and (min-width: 1024px){
 
-	#canvas{
-	  margin-left: 37%
-	}
+#klok{
+	font-size: 35px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#datum{
+	font-size: 35px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
+#tijd{
+	font-size: 35px;
+	color: #c7c7c8;
+	text-align: center;
+	font-family: Arial;
+}
+
 		h1{
 	font-size: 55px;
-	}
-
-	#countdown{
-		font-size: 55px;
 	}
 
  }
